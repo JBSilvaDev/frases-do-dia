@@ -92,16 +92,18 @@ class _HomePageState extends State<HomePage> {
                     fontWeight: FontWeight.bold),
               ),
             ),
+
           ],
         ),
       ),
-      bottomNavigationBar:
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+      
+      bottomSheet: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
         Text(
           'Created by: JB Silva',
           style: TextStyle(fontStyle: FontStyle.italic),
         )
-      ]),
+      ],
+      ),
     );
   }
 }
